@@ -13,11 +13,11 @@ jobs:
     # Define o caminho de destino no servidor como uma variavel de ambiente
     env:
       # Caminho de destino exato, o 'appleboy/scp-action' trata o '~/'
-      DEST_PATH: /var/www/public_html/nave.co.mz
-      REMOTE_HOST: '168.231.114.32'
-      REMOTE_PASS: 'Whitedress@1'
-      REMOTE_PORT: 22
-      REMOTE_USER: 'root'
+      DEST_PATH: ~/domains/nave.co.mz/public_html
+      REMOTE_HOST: '147.79.103.174'
+      REMOTE_PASS: 'Ne09ne09@1'
+      REMOTE_PORT: 65002
+      REMOTE_USER: 'u240591305'
 
     steps:
       # 1. Checkout do codigo
