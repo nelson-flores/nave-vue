@@ -27,9 +27,7 @@ import Cursor from '@/components/Cursor.vue'
                     <h2>Sobre Nos</h2>
                     <span>
                       Pagina Inicial
-                      <strong
-                        ><i class="fa-sharp fa-regular fa-angles-right"></i> ASobre Nos</strong
-                      >
+                      <strong><i class="fa-sharp fa-regular fa-angles-right"></i> Sobre Nos</strong>
                     </span>
                   </div>
                 </div>
