@@ -46,7 +46,7 @@ import Cursor from '@/components/Cursor.vue'
           <div class="container container-1617">
             <div class="row">
               <div class="col-lg-4">
-                <div class="si-section-title"><span>about Company</span></div>
+                <div class="si-section-title"><span>Sobre Nos</span></div>
               </div>
               <div class="col-lg-8">
                 <div class="si-about-text">
@@ -72,19 +72,19 @@ import Cursor from '@/components/Cursor.vue'
                   <div class="si-about-img">
                     <div class="row">
                       <div class="col-6">
-                        <img class="si-about-img2" src="/assets/img/about/about-2.jpg" alt="" />
+                        <img class="si-about-img2" src="/assets/img/pf1.png" alt="" />
                       </div>
                       <div class="col-6">
-                        <img class="si-about-img2" src="/assets/img/about/about-2.jpg" alt="" />
+                        <img class="si-about-img2" src="/assets/img/pf2.png" alt="" />
                       </div>
                     </div>
                   </div>
                   <div class="si-about-main">
-                    <img src="/assets/img/about/about-3.png" alt="" />
+                    <!--img src="/assets/img/about/about-3.png" alt="" />
 
                     <h1>100+</h1>
 
-                    <h2>Projetos Entregues com Sucesso</h2>
+                    <h2>Projetos Entregues com Sucesso</h2-->
 
                     <p>
                       Desenvolvemos soluções digitais adaptadas às necessidades de cada
