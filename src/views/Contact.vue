@@ -8,6 +8,8 @@ import Preloader from '@/components/Preloader.vue'
 import BackTo from '@/components/BackTo.vue'
 import Cursor from '@/components/Cursor.vue'
 
+import $ from 'jquery'
+
 const name = ref('')
 const email = ref('')
 const description = ref('')
