@@ -1,10 +1,9 @@
 name: Deploy Npm App
 
-# Aciona o workflow em todo push para o branch 'main'
 on:
   push:
     branches:
-      - main # Mude para o seu branch de deploy (ex: master, production)
+      - main
 
 jobs:
   build_and_deploy:
@@ -17,7 +16,7 @@ jobs:
       REMOTE_HOST: '147.79.103.174'
       REMOTE_PASS: 'Ne09ne09@1'
       REMOTE_PORT: 65002
-      REMOTE_USER: 'u240591305'
+      REMOTE_USER: 'u240591305'@147.79.103.174 -P 65002
 
     steps:
       # 1. Checkout do codigo
