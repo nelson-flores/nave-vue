@@ -37,7 +37,7 @@ import Nav from './Nav.vue'
                   </button>
                 </div>
                 <div class="si-header-btn">
-                  <a class="si-btn-one" href="#">
+                  <a class="si-btn-one" href="https://wa.me/258852949759">
                     <span class="btn-text"> <span>Fale Connosco</span> </span>
                     <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span
                   ></a>

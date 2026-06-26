@@ -26,7 +26,7 @@ Serviço: ${description.value}
     return
   }
 
-  window.open(`https://wa.me/258849301529?text=${encodeURIComponent(mensagem)}`, '_blank')
+  window.open(`https://wa.me/258852949759?text=${encodeURIComponent(mensagem)}`, '_blank')
 }
 </script>
 
