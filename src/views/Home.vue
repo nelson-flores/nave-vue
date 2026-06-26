@@ -154,7 +154,7 @@ import Cursor from '@/components/Cursor.vue'
                     </p>
                   </div>
                   <div class="si-service-btn">
-                    <router-link class="si-btn-one black-bg-btn" to="/portfolio">
+                    <router-link class="si-btn-one black-bg-btn" to="/projects">
                       <span class="btn-text">
                         <span>Ver Portfólio</span>
                       </span>

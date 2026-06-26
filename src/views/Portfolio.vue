@@ -24,7 +24,7 @@ import BackTo from '@/components/BackTo.vue'
               <div class="col-lg-12">
                 <div class="si-breadcumb-box">
                   <div class="si-breadcumb-text">
-                    <h2>Portfolio</h2>
+                    <h2>Portfolio de Sistemas e Sites</h2>
                     <span>
                       Pagina Inicial
                       <strong><i class="fa-sharp fa-regular fa-angles-right"></i>Portfolio</strong>

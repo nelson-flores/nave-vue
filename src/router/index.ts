@@ -6,6 +6,7 @@ import Portfolio from '../views/Portfolio.vue'
 import Contact from '../views/Contact.vue'
 import initMain from '@/assets/js/main.js'
 import activeSlider from '@/assets/js/slider-active.js'
+import DesignPortfolio from '@/views/DesignPortfolio.vue'
 
 const routes = [
   {
@@ -21,9 +22,15 @@ const routes = [
   },
 
   {
-    path: '/portfolio',
+    path: '/projects',
     name: 'portfolio',
     component: Portfolio,
+  },
+
+  {
+    path: '/design',
+    name: 'design',
+    component: DesignPortfolio,
   },
 
   {

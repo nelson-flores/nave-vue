@@ -1,3 +1,6 @@
+<script setup>
+import Nav from './Nav.vue'
+</script>
 <template>
   <!-- header area start -->
   <div id="header-sticky" class="si-header-area header-transparent">
@@ -22,12 +25,7 @@
                 <div class="si-header-box d-none d-xl-block">
                   <div class="si-header-menu si-header-dropdown dropdown-white-bg">
                     <nav class="si-mobile-menu-active">
-                      <ul>
-                        <li><router-link to="/">Pagina Inicial</router-link></li>
-                        <li><router-link to="/about">Sobre Nos</router-link></li>
-                        <li><router-link to="/portfolio">Portfolio</router-link></li>
-                        <li><router-link to="/contact">Contacto</router-link></li>
-                      </ul>
+                      <Nav />
                     </nav>
                   </div>
                 </div>
