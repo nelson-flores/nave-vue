@@ -24,11 +24,6 @@
         <div class="col-lg-5 p-0">
           <div class="si-footer-logo">
             <img src="/assets/img/logo/logo-white.png" alt="" />
-            <p>
-              Creative design agency specializes
-              <br class="d-none d-xxl-block" />
-              In Innovative visual solutions
-            </p>
           </div>
         </div>
         <div class="col-lg-2">
