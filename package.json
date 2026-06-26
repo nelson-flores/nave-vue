@@ -12,7 +12,7 @@
     "format": "prettier --write --experimental-cli src/"
   },
   "dependencies": {
-    "jquery": "npm:jQuery@^1.7.4",
+    "jquery": "^4.0.0",
     "jquery-confirm": "^3.3.4",
     "swiper": "^12.2.0",
     "vue": "^3.5.38",
