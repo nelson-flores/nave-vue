@@ -48,7 +48,7 @@ jobs:
           password: ${{ env.REMOTE_PASS }}
           port: ${{ env.REMOTE_PORT }}
 
-          # O que copiar no runner do GitHub (a pasta 'build' do React)
+          # O que copiar no runner do GitHub 'dust'
           source: 'dist/'
 
           # Para onde copiar no servidor remoto. O 'target' será:
