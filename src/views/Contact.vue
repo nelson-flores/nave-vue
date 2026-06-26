@@ -8,8 +8,6 @@ import Preloader from '@/components/Preloader.vue'
 import BackTo from '@/components/BackTo.vue'
 import Cursor from '@/components/Cursor.vue'
 
-//import $ from 'jquery'
-
 const name = ref('')
 const email = ref('')
 const description = ref('')
@@ -22,7 +20,9 @@ Email: ${email.value}
 Tipo: ${type.value}
 Serviço: ${description.value}
 `
-alert('Por favor, forneca suas informacoes!');
+
+  if (name.value == '') {
+    alert('Por favor, forneca suas informacoes!')
     return
   }
 
