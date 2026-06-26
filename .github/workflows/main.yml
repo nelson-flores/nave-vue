@@ -1,0 +1,82 @@
+name: Deploy Npm App
+
+# Aciona o workflow em todo push para o branch 'main'
+on:
+  push:
+    branches:
+      - main # Mude para o seu branch de deploy (ex: master, production)
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+
+    # Define o caminho de destino no servidor como uma variavel de ambiente
+    env:
+      # Caminho de destino exato, o 'appleboy/scp-action' trata o '~/'
+      DEST_PATH: /var/www/public_html/nave.co.mz
+      REMOTE_HOST: '168.231.114.32'
+      REMOTE_PASS: 'Whitedress@1'
+      REMOTE_PORT: 22
+      REMOTE_USER: 'root'
+
+    steps:
+      # 1. Checkout do codigo
+      - name: Checkout do Codigo
+        uses: actions/checkout@v4
+
+      # 2. Configurar o ambiente Node.js
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 3. Instalar dependencias e Fazer o Build
+      - name: Instalar e Fazer Build do React
+        run: |
+          unset CI
+          npm install
+          npm run build
+
+      # 4. Copiar Arquivos do Build (SCP com Senha)
+      # Esta action transfere o conteudo da pasta 'build' para o servidor remoto
+      - name: Copiar o Build para o Servidor (SCP)
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          # --- Credenciais SSH (lidas dos Secrets) ---
+          host: ${{ env.REMOTE_HOST }}
+          username: ${{ env.REMOTE_USER }}
+          password: ${{ env.REMOTE_PASS }}
+          port: ${{ env.REMOTE_PORT }}
+
+          # O que copiar no runner do GitHub (a pasta 'build' do React)
+          source: 'dist/'
+
+          # Para onde copiar no servidor remoto. O 'target' será:
+          # seu_usuario_ssh/domains/purpleros.es/public_html
+          target: ${{ env.DEST_PATH }}
+
+          strip_components: 1
+
+          # Garante que a pasta de destino é apagada antes de copiar, garantindo um deploy limpo.
+          rm: true
+
+      # 5. Comandos Pós-Deploy (Opcional, mas util)
+      # Esta action é usada para rodar comandos SSH simples.
+      - name: Limpeza e Ajuste de Permissoes
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ env.REMOTE_HOST }}
+          username: ${{ env.REMOTE_USER }}
+          password: ${{ env.REMOTE_PASS }}
+          port: ${{ env.REMOTE_PORT }}
+
+          script: |
+            # Ajustar permissoes para garantir que o dono seja o usuario de deploy
+            # Se a pasta estiver em ~/domains, geralmente não precisa de 'sudo'
+            chown -R ${{ env.REMOTE_USER }}:${{ env.REMOTE_USER }} ${{ env.DEST_PATH }}
+
+            # Se for necessário recarregar um servidor web (como Nginx ou Apache)
+            # Rodar comandos que exigem root:
+            # sudo systemctl reload nginx 
+
+            echo "Deploy do React para ${{ env.DEST_PATH }} concluido!"
