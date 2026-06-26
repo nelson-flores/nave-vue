@@ -1,9 +1,10 @@
 <script setup lang="ts">
+import { ref } from 'vue'
+
 import InnerHeader from '@/components/InnerHeader.vue'
 import Sidebar from '@/components/Sidebar.vue'
 import Footer from '@/components/Footer.vue'
 import Preloader from '@/components/Preloader.vue'
-import { ref } from 'vue'
 import BackTo from '@/components/BackTo.vue'
 import Cursor from '@/components/Cursor.vue'
 
@@ -19,6 +20,14 @@ Email: ${email.value}
 Tipo: ${type.value}
 Serviço: ${description.value}
 `
+
+  if (name.value == '') {
+    $.alert({
+      title: 'Importante!',
+      content: 'Por favor, forneca suas informacoes!',
+    })
+    return
+  }
 
   window.open(`https://wa.me/258849301529?text=${encodeURIComponent(mensagem)}`, '_blank')
 }

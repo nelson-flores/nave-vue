@@ -46,14 +46,12 @@ import Cursor from '@/components/Cursor.vue'
           <div class="container container-1617">
             <div class="row">
               <div class="col-lg-4">
-                <div class="si-section-title">
-                  <span>about Company</span>
-                </div>
+                <div class="si-section-title"><span>about Company</span></div>
               </div>
               <div class="col-lg-8">
                 <div class="si-about-text">
                   <h4>
-                    A Nave Consultoria & Serviços desenvolve softwares, websites, sistemas
+                    A Nave Consultoria &amp; Serviços desenvolve softwares, websites, sistemas
                     empresariais e soluções digitais personalizadas para empresas, instituições e
                     empreendedores. Combinamos tecnologia, inovação e estratégia para gerar
                     resultados concretos.
@@ -64,26 +62,39 @@ import Cursor from '@/components/Cursor.vue'
                 <div class="si-about-shape">
                   <img src="/assets/img/about/shape.png" alt="" />
                   <div class="si-about-text3">
-                    <h3>20+</h3>
-                    <span>Year Of Experience</span>
+                    <h3>5+</h3>
+                    <span>Anos de Experiência</span>
                   </div>
                 </div>
               </div>
               <div class="col-lg-8">
                 <div class="si-about-box">
                   <div class="si-about-img">
-                    <img src="/assets/img/about/about-1.jpg" alt="" />
-                    <img class="si-about-img2" src="/assets/img/about/about-2.jpg" alt="" />
+                    <div class="row">
+                      <div class="col-6">
+                        <img class="si-about-img2" src="/assets/img/about/about-2.jpg" alt="" />
+                      </div>
+                      <div class="col-6">
+                        <img class="si-about-img2" src="/assets/img/about/about-2.jpg" alt="" />
+                      </div>
+                    </div>
                   </div>
                   <div class="si-about-main">
                     <img src="/assets/img/about/about-3.png" alt="" />
-                    <h1>3.2 M</h1>
-                    <h2>300+ Happy Clients</h2>
+
+                    <h1>100+</h1>
+
+                    <h2>Projetos Entregues com Sucesso</h2>
+
                     <p>
-                      Identify the key barriers that prevent <br class="d-none d-xxl-block" />
-                      your business from reaching its full <br class="d-none d-xxl-block" />
-                      potential. Addressing these issues can <br class="d-none d-xxl-block" />
-                      transform your path to success.
+                      Desenvolvemos soluções digitais adaptadas às necessidades de cada
+                      <br class="d-none d-xxl-block" />
+                      cliente, desde websites institucionais até sistemas empresariais,
+                      <br class="d-none d-xxl-block" />
+                      aplicações móveis e plataformas web. O nosso compromisso é criar
+                      <br class="d-none d-xxl-block" />
+                      tecnologia que gera valor, eficiência e crescimento sustentável.
+                      <br class="d-none d-xxl-block" />
                     </p>
                   </div>
                 </div>
@@ -93,7 +104,7 @@ import Cursor from '@/components/Cursor.vue'
         </section>
         <!-- About area end -->
 
-        <!-- Brand area start -->
+        <!-- Brand area start 
         <div class="si-brand-area pb-130">
           <div class="container container-1617">
             <div class="row">
@@ -122,9 +133,9 @@ import Cursor from '@/components/Cursor.vue'
             </div>
           </div>
         </div>
-        <!-- Brand area end -->
+       Brand area end -->
 
-        <!-- Video area Start -->
+        <!-- Video area Start 
         <div class="si-video-area" data-background="/assets/img/video/bg.jpg">
           <div class="container">
             <div class="row">
@@ -145,7 +156,7 @@ import Cursor from '@/components/Cursor.vue'
             </div>
           </div>
         </div>
-        <!-- Video area End -->
+      Video area End -->
 
         <!-- Counter 3 Area Start -->
         <section class="si-counter-area pt-130 pb-124">
@@ -155,36 +166,36 @@ import Cursor from '@/components/Cursor.vue'
                 <div class="si-counter-box">
                   <div class="si-counter-text">
                     <h1 data-purecounter-duration="1" data-purecounter-end="28" class="purecounter">
-                      28
+                      100
                     </h1>
-                    <h2>K</h2>
-                    <span>Project completed</span>
+                    <h2>+</h2>
+                    <span>Projetos Concluídos</span>
                   </div>
                 </div>
                 <div class="si-counter-box counter-mt">
                   <div class="si-counter-text">
                     <h1 data-purecounter-duration="1" data-purecounter-end="9" class="purecounter">
-                      9
+                      80
                     </h1>
-                    <h2>K+</h2>
-                    <span>Happy Customer</span>
+                    <h2>+</h2>
+                    <span>Clientes Satisfeitos</span>
                   </div>
                 </div>
                 <div class="si-counter-box counter-mt">
                   <div class="si-counter-text">
                     <h1 data-purecounter-duration="1" data-purecounter-end="18" class="purecounter">
-                      18
+                      5
                     </h1>
                     <h2>+</h2>
-                    <span>Years Experiences</span>
+                    <span>Anos de Experiência</span>
                   </div>
                 </div>
                 <div class="si-counter-box counter-mt">
                   <div class="si-counter-text">
                     <h1 data-purecounter-duration="1" data-purecounter-end="98" class="purecounter">
-                      98
+                      24
                     </h1>
-                    <span>Award Achievement</span>
+                    <span>Soluções Desenvolvidas</span>
                   </div>
                 </div>
               </div>
@@ -193,7 +204,7 @@ import Cursor from '@/components/Cursor.vue'
         </section>
         <!-- Counter 3 Area End -->
 
-        <!-- Testimonial area start -->
+        <!-- Testimonial area start 
         <section class="si-testimonial-area pt-124">
           <div class="container container-1617">
             <div class="row">
@@ -212,10 +223,11 @@ import Cursor from '@/components/Cursor.vue'
                       <div class="si-testimonial-box">
                         <div class="si-testimonial-text">
                           <h2>
-                            "A equipa da Nave compreendeu rapidamente as necessidades do nosso
-                            projecto e apresentou soluções eficientes e inovadoras. O acompanhamento
-                            durante todo o processo foi excelente, resultando num produto final de
-                            elevada qualidade.""
+                            "A Nave transformou a nossa ideia numa solução digital moderna e
+                            eficiente. Desde o primeiro contacto até à entrega do projecto, a equipa
+                            demonstrou profissionalismo, competência técnica e um excelente
+                            acompanhamento. Recomendamos os seus serviços a qualquer empresa que
+                            procure inovação e qualidade."
                           </h2>
                         </div>
                         <div class="si-testimonial-main">
@@ -223,8 +235,8 @@ import Cursor from '@/components/Cursor.vue'
                             <img src="/assets/img/testimonial/testimonial1.jpg" alt="" />
                           </div>
                           <div class="si-testimonial-address">
-                            <h3>Abu Talha</h3>
-                            <span>Senior Marketing Manager</span>
+                            <h3>Cliente Nave</h3>
+                            <span>Empresário</span>
                           </div>
                         </div>
                       </div>
@@ -236,34 +248,37 @@ import Cursor from '@/components/Cursor.vue'
             </div>
           </div>
         </section>
-        <!-- Testimonial area end -->
-
-        <!-- Team area start -->
+        Testimonial area end -->
+        <!-- Team area start 
         <section class="si-team-area pt-124 pb-130">
           <div class="container container-1617">
             <div class="row">
               <div class="col-lg-12">
                 <div class="si-section-title text-center pb-40">
-                  <span>Who We Are</span>
-                  <h2>Creative Team Members</h2>
+                  <span>Nossa Equipa</span>
+                  <h2>Especialistas em Soluções Digitais</h2>
                 </div>
               </div>
+
               <div class="col-lg-6 col-xl-3 col-xxl-3">
                 <div class="si-team-box team-bottom">
                   <div class="si-team-thumb">
                     <img src="/assets/img/team/team1.jpg" alt="" />
+
                     <div class="si-team-text">
                       <div class="si-team-text-inner">
-                        <h3>Abu Talha</h3>
-                        <span>Web Developer</span>
+                        <h3>Desenvolvimento Web</h3>
+                        <span>Frontend & Backend</span>
+
                         <ul>
                           <li>
-                            <a href="#"
-                              ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                            <a href="#">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
                                 <path
                                   d="M453.2 112L523.8 112L369.6 288.2L551 528L409 528L297.7 382.6L170.5 528L99.8 528L264.7 339.5L90.8 112L236.4 112L336.9 244.9L453.2 112zM428.4 485.8L467.5 485.8L215.1 152L173.1 152L428.4 485.8z"
-                                /></svg
-                            ></a>
+                                />
+                              </svg>
+                            </a>
                           </li>
                           <li>
                             <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -283,22 +298,26 @@ import Cursor from '@/components/Cursor.vue'
                   </div>
                 </div>
               </div>
+
               <div class="col-lg-6 col-xl-3 col-xxl-3">
                 <div class="si-team-box team-bottom">
                   <div class="si-team-thumb">
                     <img src="/assets/img/team/team2.jpg" alt="" />
+
                     <div class="si-team-text">
                       <div class="si-team-text-inner">
-                        <h3>Jinnira Alam</h3>
-                        <span>Web Developer</span>
+                        <h3>Design & UX/UI</h3>
+                        <span>Experiência do Utilizador</span>
+
                         <ul>
                           <li>
-                            <a href="#"
-                              ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                            <a href="#">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
                                 <path
                                   d="M453.2 112L523.8 112L369.6 288.2L551 528L409 528L297.7 382.6L170.5 528L99.8 528L264.7 339.5L90.8 112L236.4 112L336.9 244.9L453.2 112zM428.4 485.8L467.5 485.8L215.1 152L173.1 152L428.4 485.8z"
-                                /></svg
-                            ></a>
+                                />
+                              </svg>
+                            </a>
                           </li>
                           <li>
                             <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -318,22 +337,26 @@ import Cursor from '@/components/Cursor.vue'
                   </div>
                 </div>
               </div>
+
               <div class="col-lg-6 col-xl-3 col-xxl-3">
                 <div class="si-team-box team-bottom2">
                   <div class="si-team-thumb">
                     <img src="/assets/img/team/team3.jpg" alt="" />
+
                     <div class="si-team-text">
                       <div class="si-team-text-inner">
-                        <h3>Saad Alam</h3>
-                        <span>Web Developer</span>
+                        <h3>Aplicações Mobile</h3>
+                        <span>Android & iOS</span>
+
                         <ul>
                           <li>
-                            <a href="#"
-                              ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                            <a href="#">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
                                 <path
                                   d="M453.2 112L523.8 112L369.6 288.2L551 528L409 528L297.7 382.6L170.5 528L99.8 528L264.7 339.5L90.8 112L236.4 112L336.9 244.9L453.2 112zM428.4 485.8L467.5 485.8L215.1 152L173.1 152L428.4 485.8z"
-                                /></svg
-                            ></a>
+                                />
+                              </svg>
+                            </a>
                           </li>
                           <li>
                             <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -353,22 +376,26 @@ import Cursor from '@/components/Cursor.vue'
                   </div>
                 </div>
               </div>
+
               <div class="col-lg-6 col-xl-3 col-xxl-3">
                 <div class="si-team-box team-bottom2">
                   <div class="si-team-thumb">
                     <img src="/assets/img/team/team4.jpg" alt="" />
+
                     <div class="si-team-text">
                       <div class="si-team-text-inner">
-                        <h3>Shirin Sultana</h3>
-                        <span>Web Developer</span>
+                        <h3>Consultoria em TI</h3>
+                        <span>Transformação Digital</span>
+
                         <ul>
                           <li>
-                            <a href="#"
-                              ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                            <a href="#">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
                                 <path
                                   d="M453.2 112L523.8 112L369.6 288.2L551 528L409 528L297.7 382.6L170.5 528L99.8 528L264.7 339.5L90.8 112L236.4 112L336.9 244.9L453.2 112zM428.4 485.8L467.5 485.8L215.1 152L173.1 152L428.4 485.8z"
-                                /></svg
-                            ></a>
+                                />
+                              </svg>
+                            </a>
                           </li>
                           <li>
                             <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -391,7 +418,7 @@ import Cursor from '@/components/Cursor.vue'
             </div>
           </div>
         </section>
-        <!-- Team area end -->
+     Team area end -->
       </main>
 
       <Footer />

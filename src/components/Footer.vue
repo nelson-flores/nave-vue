@@ -11,11 +11,11 @@
         <div class="col-lg-5">
           <div class="si-footer-p">
             <p>
-              Avanta team quickly understood our business requirements
+              Na Nave transformamos ideias em soluções digitais inovadoras
               <br class="d-none d-xxl-block" />
-              and were proactive and flexible with our ongoing support
+              criando experiências modernas, eficientes e adaptadas
               <br class="d-none d-xxl-block" />
-              and developments. You can definitely.
+              às necessidades do seu negócio.
             </p>
           </div>
         </div>
@@ -44,12 +44,12 @@
         </div>
         <div class="col-lg-3">
           <div class="si-footer-list footer-right">
-            <h2>Support</h2>
+            <h2>Produtos</h2>
             <ul>
-              <li><router-link to="/about">Style guide</router-link></li>
-              <li><router-link to="/about">License</router-link></li>
-              <li><router-link to="/about">Changelog</router-link></li>
-              <li><router-link to="/about"> 404 Error</router-link></li>
+              <li><a href="https://badjai.com">Badjai</a></li>
+              <li><a href="https://forumlumen.online">ForumLumen</a></li>
+              <li><a href="https://openshare.site">OpenShare</a></li>
+              <li><a href="https://purpleros.es"> PurpleRoses</a></li>
             </ul>
           </div>
         </div>
@@ -70,7 +70,7 @@
       </div>
     </div>
     <div class="si-footer-shape">
-      <img class="rotate2" src="/assets/img/footer/shape.png" alt="" />
+      <img class="rotate2" src="/assets/img/testimonial/shape-text.png" alt="" width="300px" />
     </div>
     <div class="si-copyright-area p-0">
       <div class="container container-1588">

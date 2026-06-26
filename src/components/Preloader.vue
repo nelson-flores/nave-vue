@@ -1,6 +1,6 @@
 <template>
   <!-- preloader -->
-  <div id="psreloader">
+  <div id="preloader">
     <div class="preloader">
       <span></span>
       <span></span>

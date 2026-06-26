@@ -56,7 +56,7 @@
         <div class="si-offcanvas-menu d-xl-none">
           <nav></nav>
         </div>
-        <div class="si-offcanvas-gallery d-none d-xl-block">
+        <!--div class="si-offcanvas-gallery d-none d-xl-block">
           <div class="row gx-2">
             <div class="col-md-3 col-3">
               <div class="si-offcanvas-gallery-img fix">
@@ -87,20 +87,20 @@
               </div>
             </div>
           </div>
-        </div>
+        </div-->
         <div class="si-offcanvas-contact">
           <h3 class="si-offcanvas-title sm">Informações</h3>
           <ul>
             <li><a href="tel:+258852949759">+258 85 294 9759</a></li>
             <li><a href="mailto:hello@wamexi.com">contacto@nave.co.mz</a></li>
-            <li><a href="#">Av. FLPM, Nampula</a></li>
+            <li>Nampula, Mo&ccedil;ambique</li>
           </ul>
         </div>
         <div class="si-offcanvas-social">
           <h3 class="si-offcanvas-title sm"><Siga-nos></Siga-nos></h3>
           <ul>
             <li>
-              <a href="#">
+              <a href="https://instagram.com/nave.mz">
                 <svg
                   width="16"
                   height="16"
@@ -128,62 +128,6 @@
                     stroke-width="1.5"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                  />
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-twitter-x"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"
-                  />
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-facebook"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
-                  />
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <svg
-                  width="18"
-                  height="14"
-                  viewBox="0 0 18 14"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M12.75 13H5.25C3 13 1.5 11.5 1.5 9.25V4.75C1.5 2.5 3 1 5.25 1H12.75C15 1 16.5 2.5 16.5 4.75V9.25C16.5 11.5 15 13 12.75 13Z"
-                    stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    d="M8.70676 5.14837L10.8006 6.40465C11.5543 6.90716 11.5543 7.66093 10.8006 8.16344L8.70676 9.41972C7.86923 9.92224 7.19922 9.50348 7.19922 8.5822V6.06964C7.19922 4.98086 7.86923 4.64585 8.70676 5.14837Z"
-                    fill="currentColor"
                   />
                 </svg>
               </a>

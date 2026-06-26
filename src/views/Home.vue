@@ -110,7 +110,7 @@ import Cursor from '@/components/Cursor.vue'
                     <img src="/assets/img/brand/fena.png" alt="" />
                   </div>
                   <div class="si-brand-box border-0">
-                    <img src="/assets/img/brand/inage.png" alt="" />
+                    <img src="https://forumlumen.online/assets/images/logo.png" alt="" />
                   </div>
                   <div class="si-brand-box border-0">
                     <img src="/assets/img/brand/badjai.png" alt="" />
@@ -409,10 +409,10 @@ import Cursor from '@/components/Cursor.vue'
           <div class="container container-1617">
             <div class="row">
               <div class="col-lg-4">
-                <div class="si-testimonial-shape">
+                <div class="si-testimonial-shape bg-transparent">
                   <img class="rotate2" src="/assets/img/testimonial/shape-text.png" alt="" />
                   <div class="si-testimonial-icon">
-                    <img src="/assets/img/testimonial/Icon.svg" alt="" />
+                    <!--img src="/assets/img/testimonial/Icon.svg" alt="" /-->
                   </div>
                 </div>
               </div>
@@ -429,12 +429,12 @@ import Cursor from '@/components/Cursor.vue'
                             elevada qualidade. Recomendamos os seus serviços com total confiança.”
                           </h2>
                         </div>
-                        <div class="si-testimonial-main">
+                        <div class="si-testimonial-main mb-4">
                           <div class="si-testimonial-thumb">
-                            <img src="/assets/img/testimonial/testimonial1.jpg" alt="" />
+                            <img src="/3135823.png" alt="" width="80px" />
                           </div>
                           <div class="si-testimonial-address">
-                            <h3>Mohamed Bacar</h3>
+                            <h3>Cliente Nave</h3>
                             <span>Gestor de Marketing</span>
                           </div>
                         </div>
