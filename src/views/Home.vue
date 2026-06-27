@@ -286,7 +286,9 @@ import Cursor from '@/components/Cursor.vue'
                             </div>
                             <div class="si-project-text">
                               <h3>
-                                <a class="underline-black" href="jobradar.online">Job-Radar</a>
+                                <a class="underline-black" href="https://jobradar.online"
+                                  >Job-Radar</a
+                                >
                               </h3>
                               <span class="project-dot"
                                 >Encontre vagas de emprego de forma facil</span
@@ -308,12 +310,12 @@ import Cursor from '@/components/Cursor.vue'
                             </div>
                             <div class="si-project-text">
                               <h3>
-                                <a class="underline-black" href="portfolio-details.html"
+                                <a class="underline-black" href="https://forumlumen.online"
                                   >Forum Lumen</a
                                 >
                               </h3>
-                              <span class="project-dot">Web Design</span>
-                              <span>Unique Visual Identity</span>
+                              <span class="project-dot">Web</span>
+                              <span>Portal de pesquisa academica</span>
                             </div>
                           </div>
                         </div>
@@ -331,10 +333,10 @@ import Cursor from '@/components/Cursor.vue'
                             </div>
                             <div class="si-project-text">
                               <h3>
-                                <a class="underline-black" href="badjai.com">Badjai</a>
+                                <a class="underline-black" href="https://badjai.com">Badjai</a>
                               </h3>
                               <span class="project-dot">Audio, Video</span>
-                              <span>Unique Visual Identity</span>
+                              <span>Explore e baixe musicas</span>
                             </div>
                           </div>
                         </div>
